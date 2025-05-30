@@ -3,6 +3,10 @@
     "MCP-timeserver": {
       "command": "uvx",
       "args": ["MCP-timeserver"]
-    }
+    },
+      "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+      }
   }
 }
