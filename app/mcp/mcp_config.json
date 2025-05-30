@@ -1,12 +1,8 @@
 {
   "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "E:\"
-      ]
+    "MCP-timeserver": {
+      "command": "uvx",
+      "args": ["MCP-timeserver"]
     }
   }
 }
