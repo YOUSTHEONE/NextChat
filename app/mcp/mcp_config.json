@@ -1,8 +1,10 @@
 {
-    "mcpServers": {
-        "mcp-git-ingest": {
-            "command": "uvx",
-            "args": ["--from", "git+https://github.com/adhikasp/mcp-git-ingest", "mcp-git-ingest"],
-        }
+  "mcpServers": {
+    "Tavily-MCP-Server": {
+      "url": "https://server.smithery.ai/@tavily-ai/tavily-mcp/mcp?profile=necessary-landfowl-9pyS5M&api_key=3f021838-56d5-4389-b775-448af60af4c8"
+    },
+      "amap-amap-sse": {
+      "url": "https://mcp.amap.com/sse?key=ad4215d239638691a0762f2b74bc9e30"
     }
+  }
 }
