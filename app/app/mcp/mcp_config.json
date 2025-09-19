@@ -1,12 +1,8 @@
 {
   "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "E:\"
-      ]
+    "amap-amap-sse": {
+      "type": "SSE",
+      "url": "https://mcp.amap.com/sse?key=ad4215d239638691a0762f2b74bc9e30"
+    },
     }
-  }
 }
